@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Home.css';
 
-class Home extends Component {
-    render() {
-        return (
-            <div className="home-landing"></div>
-        )
-    }
+export default function Home(props) {
+     return (
+         <div className="home-landing"></div>
+    )
 }
